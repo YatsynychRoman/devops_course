@@ -19,4 +19,10 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
 
 ```
+3. Створив темплейт додатку
 
+```
+pipenv run python manage.py startapp main
+```
+
+4. Створив `main.html` та `urls.py`
