@@ -28,7 +28,7 @@ jobs:
       install:
         - cd ./'Lab 4'/
       script:
-        - docker build -t alexolink/study:django-travis .
+        - docker build -t yatsynychroman/devops_course:django-travis .
         - docker images
         - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
         - docker push alexolink/study:django-travis

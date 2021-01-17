@@ -25,6 +25,7 @@ def main(url):
                 logging.info("Key: %s, Value: %s", key, data[key])
         except requests.exceptions.ConnectionError:
             logging.error("Server is unavailable :(")
+            return 0;
 
         time.sleep(60)
 
