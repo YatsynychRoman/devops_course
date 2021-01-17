@@ -1,4 +1,4 @@
-FROM python:3.8-alpine
+FROM python:3.7-alpine
 LABEL author="yatsynychroman"
 
 # оновлюємо систему та встановлюємо потрібні пакети
