@@ -1,5 +1,5 @@
-FROM python:3.7-alpine
-LABEL author="alexolink"
+FROM python:3.8-alpine
+LABEL author="yatsynychroman"
 
 # оновлюємо систему та встановлюємо потрібні пакети
 RUN apk update \
